@@ -1,0 +1,28 @@
+.company-logo img{
+    height: 50px;
+    width: 80px;
+    margin-right: 100px;
+    
+}
+.company-logo{
+    width: 100%;
+}
+.course-heading{
+    background-color: rgb(47, 47, 47);
+    line-height: 30px;
+    text-align: start;
+    padding-left: 40px;
+    padding-top: 5px;
+}
+.course-heading a{
+    padding: 10px;
+    margin-right: 70px;
+    transition: all 0.5s ease-out;
+    font-size: 17px;
+    color: white;
+    text-decoration: none;
+}
+.course-heading a:hover{
+    background-color: darkgray;
+    color: black;
+}

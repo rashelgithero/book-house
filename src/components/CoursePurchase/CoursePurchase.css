@@ -1,0 +1,76 @@
+.remove-area{
+    width: 75%;
+    padding: 20px;
+    margin-left: 20px;
+    background-color: rgb(225, 225, 225);
+}
+.course{
+    width: 100%;
+    display: flex;
+}
+.remove-area h4{
+    text-align: end;
+    font-weight: bolder;
+    margin: 10px 40px;
+    
+}
+.remove-area button{
+    font-size: 20px ;
+    margin: 30px 20px 40px 50px;
+    border: none;
+    color: lightcyan ;
+    
+}
+.enroll-area{
+    width: 25%;
+}
+.enroll-area .getCourse{
+    color: aliceblue;
+    border: none;
+    font-size: 23px;
+    margin-left: 80px;
+    
+}
+#nameTitle{
+    font-size: 25px;
+    color: blue;
+}
+.removeDetails{
+    border-bottom: 2px solid rgb(255, 255, 255);
+}
+.remove-area h3{
+    padding: 30px 0;
+    margin-left: 30px ;
+    color:black;
+    font-weight: bolder;
+}
+.increase{
+    font-size: 30px;
+    font-weight: bolder;
+    margin-right: 25px;
+    border: none;
+    padding: 0 12px;
+    color: green;
+
+    &:hover{
+        background-color: darkgray;
+    }
+}
+.decrease{
+    font-size: 30px;
+    font-weight: bolder;
+    color: red;
+    border: none;
+    padding: 0 15px;
+    
+    &:hover{
+        background-color: darkgray;
+    }
+}
+.quantity{
+    text-align: end;
+    align-items: center;
+    display: flex;
+    justify-content: flex-end;
+    
+}

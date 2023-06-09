@@ -1,0 +1,43 @@
+.course-area{
+    width: 75%;
+    border-right: 1px solid grey;
+}
+.enroll-area{
+    width: 25%;
+    background-color: white;
+}
+.showButton{
+    margin-left: 190px;
+    font-size: 90px;
+    width: 50%;
+    
+}
+.show{
+    text-align: start;
+    margin-bottom:10px ;
+}
+.course{
+    display: flex;
+}
+.purchaseBtn{
+    text-align: center;
+    color: white;
+    background-color: green;
+    padding: 10px 20px;
+    border-radius: 5px;
+    border: none;
+    margin-left: 70px;
+    font-size: 18px;
+
+    &:hover{
+        background-color: darkGreen;
+
+
+    }
+}
+.enroll-area h6{
+    text-align: center;
+    font-size: 20px ;
+    margin-top: 10px;
+    color: red;
+}
