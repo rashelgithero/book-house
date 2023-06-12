@@ -15,7 +15,6 @@ function App() {
   const [logInUser, setLogInUser] = useState({});
   return (
     <userContext.Provider value={[logInUser, setLogInUser]}>
-      <h3>Email: {logInUser.email}</h3>
       <div style={{display: 'flex', flexDirection: 'column', alignItems: 'center'}}>
         <BrowserRouter>
         <Header/>
