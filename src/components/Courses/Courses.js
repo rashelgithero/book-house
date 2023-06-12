@@ -5,7 +5,7 @@ import './Courses.css';
 import Card from '../Card/Card';
 import Header from '../Header/Header';
 import { addToDataBase, getFromDataBase } from '../../dataBaseManager';
-import { Link } from 'react-router-dom';
+import { Link, useNavigate } from 'react-router-dom';
 
 
 const Courses = () => {
@@ -27,7 +27,7 @@ const Courses = () => {
         setCart(newCart);
         addToDataBase(course.key, count)
     }
-
+    const navigate = useNavigate()
     useEffect(() => {
         const getKey = getFromDataBase();
         const getObject = Object.keys(getKey);
@@ -36,6 +36,7 @@ const Courses = () => {
             course.quantity = getKey[key]
             return course;
         })
+        courseData.length === 0 && navigate('/course')
         setCart(courseData)
     },[])
     return (

@@ -7,6 +7,12 @@
   pointer-events: none;
 }
 
+button, input, optgroup, select, textarea {
+    margin: 10px;
+    font-family: inherit;
+    font-size: inherit;
+    line-height: inherit;
+}
 @media (prefers-reduced-motion: no-preference) {
   .App-logo {
     animation: App-logo-spin infinite 20s linear;
